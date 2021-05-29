@@ -32,7 +32,7 @@
   <header id="header">
     <!-- Primary Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-      <a class="navbar-brand" href="#">Mobile Shopee</a>
+      <a class="navbar-brand" href="#">Library</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,18 +43,18 @@
             <a class="nav-link" href="#top-sale">Top Sale</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
+            <a class="nav-link" href="#category">Category</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">New Books</a>
+            <a class="nav-link" href="#new-phones">New Books</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" href="#blogs">News</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0 mr-2">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="header_btn my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+        <form class="form-inline font-size-14 font-rale my-2 my-lg-0 mr-2">
+          <input class="form-control mr-0 mr-sm-2" type="text" placeholder="Search">
+          <button class="header_btn rounded-pill my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
         </form>
         <form action="#" class="font-size-14 font-rale mr-2">
           <a href="./login.html" class="py-2 rounded-pill color-primary-bg">
@@ -102,7 +102,7 @@
         <div class="owl-carousel owl-theme">
           <div class="item py-2">
             <div class="product font-rale p-2">
-              <div class="card text-left" style="border: none; ">
+              <div class="card text-left border" style="border: none; ">
                 <a href="./detail.html">
                   <img class="card-img-top p-2" src="./assets/books/oop.jpg" alt="">
                   <div class="card-body p-3">
@@ -120,7 +120,7 @@
           </div>
           <div class="item py-2">
             <div class="product font-rale p-2">
-              <div class="card text-left" style="border: none; ">
+              <div class="card text-left border" style="border: none; ">
                 <a href="./detail.html">
                   <img class="card-img-top p-2" src="./assets/books/thoop.jpg" alt="">
                   <div class="card-body p-3">
@@ -138,7 +138,7 @@
           </div>
           <div class="item py-2">
             <div class="product font-rale p-2">
-              <div class="card text-left" style="border: none; ">
+              <div class="card text-left border" style="border: none; ">
                 <a href="./detail.html">
                   <img class="card-img-top p-2" src="./assets/books/ctdlgt.jpg" alt="">
                   <div class="card-body p-3">
@@ -156,7 +156,7 @@
           </div>
           <div class="item py-2">
             <div class="product font-rale p-2">
-              <div class="card text-left" style="border: none; ">
+              <div class="card text-left border" style="border: none; ">
                 <a href="./detail.html">
                   <img class="card-img-top p-2" src="./assets/books/n5.jpg" alt="">
                   <div class="card-body p-3">
@@ -174,7 +174,7 @@
           </div>
           <div class="item py-2">
             <div class="product font-rale p-2">
-              <div class="card text-left" style="border: none; ">
+              <div class="card text-left border" style="border: none; ">
                 <a href="./detail.html">
                   <img class="card-img-top p-2" src="./assets/books/n3.jpg" alt="">
                   <div class="card-body p-3">
@@ -197,393 +197,386 @@
     </section>
     <!-- !Top Sale -->
 
-    <!-- Special Price -->
-    <section id="special-price">
+    <!-- Category -->
+    <section id="category">
       <div class="container">
-        <h4 class="font-rubik font-size-20">Special Price</h4>
+        <h4 class="font-rubik font-size-20">Category</h4>
         <div id="filters" class="button-group text-right font-baloo font-size-16">
-          <button class="btn is-checked" data-filter="*">All Brand</button>
-          <button class="btn" data-filter=".Apple">Apple</button>
-          <button class="btn" data-filter=".Samsung">Samsung</button>
-          <button class="btn" data-filter=".Redmi">Redmi</button>
+          <button class="btn is-checked" data-filter="*">All</button>
+          <button class="btn" data-filter=".cs">Computer Science</button>
+          <button class="btn" data-filter=".se">Software Engineering</button>
+          <button class="btn" data-filter=".fois">Faculty of Information Systems</button>
         </div>
-
         <div class="grid">
-          <div class="grid-item Apple border">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <a href="#"><img src="../assets/products/13.png" alt="product1" class="img-fluid"></a>
-                <div class="text-center">
-                  <h6>Apple iPhone 10</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="grid-item cs">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/oop.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Lập trình hướng đối tượng</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$152</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="grid-item Samsung border">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <a href="#"><img src="../assets/products/11.png" alt="product1" class="img-fluid"></a>
-                <div class="text-center">
-                  <h6>Samsung Galaxy 10</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="grid-item cs">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/thoop.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">TH Lập trình hướng đối tượng</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$152</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="grid-item Redmi border">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <a href="#"><img src="../assets/products/3.png" alt="product1" class="img-fluid"></a>
-                <div class="text-center">
-                  <h6>Redmi Note 7 Pro</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="grid-item fois">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/607.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Hướng dẫn thực hành ARCMAP</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$152</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="grid-item Apple border">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <a href="#"><img src="../assets/products/14.png" alt="product1" class="img-fluid"></a>
-                <div class="text-center">
-                  <h6>Apple iPhone 10</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="grid-item se">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/csdl.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Cơ sở dữ liệu</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$152</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="grid-item Samsung border">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <a href="#"><img src="../assets/products/12.png" alt="product1" class="img-fluid"></a>
-                <div class="text-center">
-                  <h6>Samsung Galaxy 10</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="grid-item se">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/tcc.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Toán cao cấp</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$152</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid-item  Redmi border ">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <div class="d-flex flex-column">
-                  <a href="#"><img src="../assets/products/4.png" class="img-fluid" alt="pro1"></a>
-                  <div class="text-center">
-                    <h6>Redmi Note 7 Pro</h6>
-                    <div class="rating text-warning font-size-12">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="price py-2">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+          </div>        
+          <div class="grid-item fois">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Xây dựng Website kết nối doanh nghiệp với khách hàng</h6>
+                    <p class="card-title">10.000</p>
                   </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid-item  Redmi border ">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <div class="d-flex flex-column">
-                  <a href="#"><img src="../assets/products/5.png" class="img-fluid" alt="pro1"></a>
-                  <div class="text-center">
-                    <h6>Redmi Note 7 Pro</h6>
-                    <div class="rating text-warning font-size-12">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="price py-2">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+          </div>   
+          <div class="grid-item fois">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Xây dựng Website bán hàng</h6>
+                    <p class="card-title">10.000</p>
                   </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid-item  Redmi border ">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <div class="d-flex flex-column">
-                  <a href="#"><img src="../assets/products/6.png" class="img-fluid" alt="pro1"></a>
-                  <div class="text-center">
-                    <h6>Redmi Note 7 Pro</h6>
-                    <div class="rating text-warning font-size-12">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="price py-2">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+          </div>   
+          <div class="grid-item se">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Nghiên cứu các phương pháp truyền hình ảnh theo luồng trên thiết bị di động</h6>
+                    <p class="card-title">10.000</p>
                   </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid-item  Redmi border">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <div class="d-flex flex-column">
-                  <a href="#"><img src="../assets/products/10.png" class="img-fluid" alt="pro1"></a>
-                  <div class="text-center">
-                    <h6>Redmi Note 7 Pro</h6>
-                    <div class="rating text-warning font-size-12">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="price py-2">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+          </div>   
+          <div class="grid-item cs">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Hệ thống tư vấn tài nguyên học tập</h6>
+                    <p class="card-title">10.000</p>
                   </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid-item Apple border  ">
-            <div class="item py-2" style="width: 200px;">
-              <div class="product font-rale">
-                <div class="d-flex flex-column">
-                  <a href="#"><img src="../assets/products/13.png" class="img-fluid" alt="pro1"></a>
-                  <div class="text-center">
-                    <h6>Apple iPhone 10</h6>
-                    <div class="rating text-warning font-size-12">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="price py-2">
-                      <span>$252</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+          </div>   
+          <div class="grid-item cs">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Nghiên cứu xử lý Tiếng Nhật và Tiếng Việt trên máy tính</h6>
+                    <p class="card-title">10.000</p>
                   </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
+          </div>   
+          <div class="grid-item fois">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Xây dựng hệ thống quản lý quy trình tuyển dụng</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>   
+          <div class="grid-item fois">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Ứng dụng khai thác dữ liệu Web để xây dựng hệ thống</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>   
+          <div class="grid-item cs">
+            <div class="product font-rale py-2" style="width: 200px;">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/ctdlgt.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Cấu trúc dữ liệu và giải thuật</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>   
         </div>
       </div>
     </section>
-    <!-- !Special Price -->
+    <!-- !Category -->
 
-    <!-- Banner Ads  -->
-    <section id="banner_adds">
-      <div class="container py-5 text-center">
-        <img src="../assets/banner1-cr-500x150.jpg" alt="banner1" class="img-fluid">
-        <img src="../assets/banner2-cr-500x150.jpg" alt="banner1" class="img-fluid">
-      </div>
-    </section>
-    <!-- !Banner Ads  -->
-
-    <!-- New Phones -->
+    <!-- New Books -->
     <section id="new-phones">
-      <div class="container">
-        <h4 class="font-rubik font-size-20">New Phones</h4>
+      <div class="container py-5">
+        <h4 class="font-rubik font-size-20">New Books</h4>
         <hr>
 
         <!-- owl carousel -->
         <div class="owl-carousel owl-theme">
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Samsung Galaxy 10</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/products/2.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Readme Note 7</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/products/3.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Readme Note 7</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/products/6.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Samsung Galaxy 10</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Readme Note 7</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <div class="d-flex flex-column">
-                <a href="#"><img src="../assets/products/1.png" class="img-fluid" alt="pro1"></a>
-                <div class="text-center">
-                  <h6>Readme Note 7</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/n1.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Vừa đủ - Đẳng cấp sống của người Thụy Điển</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$122</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="item py-2 bg-light">
-            <div class="product font-rale">
-              <div class="d-flex flex-column">
-                <a href="#"><img src="../assets/products/2.png" class="img-fluid" alt="pro1"></a>
-                <div class="text-center">
-                  <h6>Readme Note 7</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/n2.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Thất tính tạm thời</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <div class="price py-2">
-                    <span>$122</span>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/n3.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Nghĩ giàu làm giàu</h6>
+                    <p class="card-title">10.000</p>
                   </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/n4.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Tỏa sáng ở trường đại học</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/n5.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Hạt giống tâm hồn</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Đắc nhân tâm</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale p-2">
+              <div class="card text-left border" style="border: none; ">
+                <a href="./detail.html">
+                  <img class="card-img-top p-2" src="./assets/books/unk.jpg" alt="">
+                  <div class="card-body p-3">
+                    <h6 class="card-title text-truncate">Mắt biếc</h6>
+                    <p class="card-title">10.000</p>
+                  </div>
+                </a>
+                <div class="cart d-flex">
+                  <button type="submit" class="btn-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -593,7 +586,7 @@
 
       </div>
     </section>
-    <!-- !New Phones -->
+    <!-- !New Books -->
 
     <!-- Blogs -->
     <section id="blogs">
